@@ -22,7 +22,13 @@ public class Github {
         res = a - b;
         return res;
         
-      
+
+    }
+  
+  public static int multiplicacion (int a, int b){
+        int res;
+        res = a * b;
+        return res;
     }
     
     
