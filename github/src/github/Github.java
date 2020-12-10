@@ -1,21 +1,33 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package github;
 
-/**
- *
- * @author Joan
- */
+
 public class Github {
 
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String[] args) {
-        // TODO code application logic here
+        int resres, resmul;
+    
+   
+   resres = resta(20,10);
+   resmul = multiplicacion(10,10);
+   
+   System.out.print("\n La resta es:" + resres);
+   System.out.print("\n La multiplicacion es:" + resmul);
+        
     }
+    
+    public static int resta (int a, int b){
+        int res;
+        res = a - b;
+        return res;
+        
+      
+    }
+    
+    
+    
+    
+    
     
 }
